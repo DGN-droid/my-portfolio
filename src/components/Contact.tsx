@@ -51,4 +51,20 @@ function Contact() {
           </label>
           <label className="contact__field" htmlFor="contact-message" onMouseEnter={() => setBirdTarget('contact-message')}>
             <span>Message</span>
-            <textarea id="contact-message" name="message" value={fields.message} onC
+            <textarea id="contact-message" name="message" value={fields.message} onChange={handleChange} onFocus={() => setBirdTarget('contact-message')} placeholder=" " rows={5} required />
+          </label>
+          <button className="contact__submit" type="submit">Envoyer le message <span>↗</span></button>
+          <p className="contact__status" aria-live="polite">{status}</p>
+        </form>
+
+        <div className="contact__visual">
+          <ContactProfile />
+          <span className="contact__visual-note">DANGNIVO STEFAN / DISPONIBLE</span>
+          <a className="contact__model-credit" href="https://sketchfab.com/3d-models/low-poly-parrot-aac71bed4a784536964748569dcf1537" target="_blank" rel="noreferrer">Modèle 3D : Ceyhun / Sketchfab</a>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Contact

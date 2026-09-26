@@ -158,6 +158,7 @@ button { font: inherit; }
 .contact-profile__face--back img { object-position: center 18%; }
 .contact-profile__label { position: absolute; right: .8rem; bottom: .8rem; left: .8rem; display: block; padding: .45rem .55rem; color: var(--paper); background: rgba(17,17,15,.78); font: 9px 'DM Mono', monospace; letter-spacing: .08em; text-transform: uppercase; }
 .contact__visual-note { position: absolute; z-index: 3; right: 1rem; bottom: 1rem; color: rgba(240,238,231,.65); font: 10px 'DM Mono', monospace; letter-spacing: .08em; }
+.contact__model-credit { position: absolute; z-index: 4; left: 1rem; bottom: 1rem; color: rgba(240,238,231,.65); font: 9px 'DM Mono', monospace; letter-spacing: .05em; text-decoration: underline; text-underline-offset: .2em; }
 .site-footer { display: flex; justify-content: space-between; gap: 2rem; padding: 2rem 4vw; border-top: 1px solid var(--line); color: var(--muted); font: 11px 'DM Mono', monospace; }
 .site-footer p { margin: 0; }
 .site-footer a { color: var(--paper); }
