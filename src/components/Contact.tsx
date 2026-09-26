@@ -1,5 +1,4 @@
 import { ChangeEvent, FormEvent, useRef, useState } from 'react'
-import ContactBird from './ContactBird'
 import ContactProfile from './ContactProfile'
 
 type ContactFields = {
@@ -12,9 +11,7 @@ const initialFields: ContactFields = { name: '', email: '', message: '' }
 
 function Contact() {
   const formRef = useRef<HTMLFormElement>(null)
-  const sceneRef = useRef<HTMLDivElement>(null)
   const [fields, setFields] = useState<ContactFields>(initialFields)
-  const [birdTarget, setBirdTarget] = useState<string | null>('contact-name')
   const [status, setStatus] = useState('')
 
   const handleChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -38,20 +35,19 @@ function Contact() {
         <p>Une idée, une interface ou une expérience interactive à construire ?</p>
       </div>
 
-      <div className="contact__layout" ref={sceneRef}>
-        <ContactBird containerRef={sceneRef} targetId={birdTarget} />
+      <div className="contact__layout">
         <form className="contact__form" ref={formRef} onSubmit={handleSubmit} data-reveal>
-          <label className="contact__field" htmlFor="contact-name" onMouseEnter={() => setBirdTarget('contact-name')}>
+          <label className="contact__field" htmlFor="contact-name">
             <span>Nom</span>
-            <input id="contact-name" name="name" type="text" value={fields.name} onChange={handleChange} onFocus={() => setBirdTarget('contact-name')} placeholder=" " required />
+            <input id="contact-name" name="name" type="text" value={fields.name} onChange={handleChange} placeholder=" " required />
           </label>
-          <label className="contact__field" htmlFor="contact-email" onMouseEnter={() => setBirdTarget('contact-email')}>
+          <label className="contact__field" htmlFor="contact-email">
             <span>Email</span>
-            <input id="contact-email" name="email" type="email" value={fields.email} onChange={handleChange} onFocus={() => setBirdTarget('contact-email')} placeholder=" " required />
+            <input id="contact-email" name="email" type="email" value={fields.email} onChange={handleChange} placeholder=" " required />
           </label>
-          <label className="contact__field" htmlFor="contact-message" onMouseEnter={() => setBirdTarget('contact-message')}>
+          <label className="contact__field" htmlFor="contact-message">
             <span>Message</span>
-            <textarea id="contact-message" name="message" value={fields.message} onChange={handleChange} onFocus={() => setBirdTarget('contact-message')} placeholder=" " rows={5} required />
+            <textarea id="contact-message" name="message" value={fields.message} onChange={handleChange} placeholder=" " rows={5} required />
           </label>
           <button className="contact__submit" type="submit">Envoyer le message <span>↗</span></button>
           <p className="contact__status" aria-live="polite">{status}</p>

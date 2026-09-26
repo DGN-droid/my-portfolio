@@ -107,7 +107,9 @@ function ContactBird({ containerRef, targetId }: ContactBirdProps) {
       const maxDimension = Math.max(size.x, size.y, size.z)
       loadedModel.position.sub(center)
       loadedModel.scale.setScalar(118 / Math.max(maxDimension, .001))
-      loadedModel.rotation.y = Math.PI / 2
+      // Le modèle est déjà orienté dans l'axe de son profil. Une rotation de
+      // 90° le présentait de face au lieu de montrer sa silhouette latérale.
+      loadedModel.rotation.y = 0
       bird.add(loadedModel)
       bird.visible = true
     }, undefined, (error) => {
