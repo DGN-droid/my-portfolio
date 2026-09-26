@@ -1,0 +1,60 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.17.0
+2 info using node@v24.19.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\my portfolio\.npmrc
+5 silly config load:file:C:\Users\cafud\.npmrc
+6 silly config load:file:C:\Users\cafud\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--offline" "--no-audit" "--no-fund" "--loglevel" "error"
+9 verbose logfile logs-max:10 dir:C:\my portfolio\.npm-cache\_logs\2026-09-20T17_04_47_795Z-
+10 verbose logfile C:\my portfolio\.npm-cache\_logs\2026-09-20T17_04_47_795Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest @vitejs/plugin-react@6.0.2
+15 silly packumentCache full:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+16 silly fetch manifest gsap@3.15.0
+17 silly packumentCache full:https://registry.npmjs.org/gsap cache-miss
+18 silly fetch manifest react@19.2.8
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 silly fetch manifest react-dom@19.2.8
+21 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+22 silly fetch manifest vite@8.2.2
+23 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+24 silly fetch manifest @types/react@19.2.18
+25 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+26 silly fetch manifest @types/react-dom@19.2.5
+27 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+28 silly fetch manifest typescript@5.9.3
+29 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+30 silly placeDep ROOT @types/react@ OK for: portfolio-cafud@0.1.0 want: 19.2.18
+31 silly placeDep ROOT @types/react-dom@ OK for: portfolio-cafud@0.1.0 want: 19.2.5
+32 silly placeDep ROOT @vitejs/plugin-react@ OK for: portfolio-cafud@0.1.0 want: 6.0.2
+33 silly placeDep ROOT gsap@ OK for: portfolio-cafud@0.1.0 want: 3.15.0
+34 silly placeDep ROOT react@ OK for: portfolio-cafud@0.1.0 want: 19.2.8
+35 silly placeDep ROOT react-dom@ OK for: portfolio-cafud@0.1.0 want: 19.2.8
+36 silly placeDep ROOT typescript@ OK for: portfolio-cafud@0.1.0 want: 5.9.3
+37 silly placeDep ROOT vite@ OK for: portfolio-cafud@0.1.0 want: 8.2.2
+38 verbose stack Error: request to https://registry.npmjs.org/@types%2freact failed: cache mode is 'only-if-cached' but no cached response is available.
+38 verbose stack     at cacheFetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+38 verbose stack     at async fetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+38 verbose stack     at async RegistryFetcher.packument (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+38 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+38 verbose stack     at async #fetchManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1319:20)
+38 verbose stack     at async #nodeFromEdge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1140:19)
+38 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:984:15)
+38 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:179:7)
+38 verbose stack     at async Promise.all (index 1)
+38 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:112:5)
+39 error code ENOTCACHED
+40 error request to https://registry.npmjs.org/@types%2freact failed: cache mode is 'only-if-cached' but no cached response is available.
+41 silly unfinished npm timer reify 1789923888827
+42 silly unfinished npm timer reify:loadTrees 1789923888828
+43 verbose cwd C:\my portfolio
+44 verbose os Windows_NT 10.0.26200
+45 verbose node v24.19.0
+46 verbose npm  v11.17.0
+47 verbose exit 1
+48 verbose code 1
+49 error A complete log of this run can be found in: C:\my portfolio\.npm-cache\_logs\2026-09-20T17_04_47_795Z-debug-0.log
