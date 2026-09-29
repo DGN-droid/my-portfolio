@@ -70,7 +70,8 @@ button { font: inherit; }
 .stack-group__top { display: flex; justify-content: space-between; gap: 1rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--line); color: var(--muted); font: 10px 'DM Mono', monospace; text-transform: uppercase; letter-spacing: .08em; }
 .stack-group__top span:first-child { color: var(--acid); }
 .stack-group__items { display: flex; flex-wrap: wrap; gap: .55rem; padding-top: 1.5rem; }
-.stack-group__items span { padding: .55rem .7rem; border: 1px solid rgba(240,238,231,.32); border-radius: 2rem; color: var(--paper); font-size: .82rem; line-height: 1; transition: color .25s, background .25s, border-color .25s, transform .25s; }
+.stack-group__items span { display: inline-flex; align-items: center; gap: .45rem; padding: .55rem .7rem; border: 1px solid rgba(240,238,231,.32); border-radius: 2rem; color: var(--paper); font-size: .82rem; line-height: 1; transition: color .25s, background .25s, border-color .25s, transform .25s; }
+.stack-group__items svg { flex: 0 0 auto; width: 1rem; height: 1rem; color: var(--acid); }
 .stack-group__items span:hover { border-color: var(--acid); color: var(--ink); background: var(--acid); transform: translateY(-3px); }
 .ticker { overflow: hidden; padding: 1.2rem 0; background: var(--acid); color: var(--ink); white-space: nowrap; }
 .ticker__track { display: flex; width: max-content; font-size: clamp(2rem, 4.5vw, 5rem); letter-spacing: -.06em; font-weight: 700; animation: tickerMarquee 24s linear infinite; will-change: transform; }
