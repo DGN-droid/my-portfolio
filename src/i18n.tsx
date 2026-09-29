@@ -138,7 +138,7 @@ export const translations: Record<Language, SiteCopy> = {
       items: [
         { number: '01', name: 'IOKEO', type: 'Site web', role: 'Développement web', description: 'Une fiche prête à accueillir la présentation du site, le contexte de la mission et les choix d’interface.', slot: 'Ajouter une image IOKEO' },
         { number: '02', name: 'Ribbit', type: 'Tests QA', role: 'Tests QA', description: 'Un espace pour décrire la démarche de test, les parcours couverts et les éléments que tu souhaites documenter.', slot: 'Ajouter une image Ribbit' },
-        { number: '03', name: 'Les Patronnes', type: 'Identité visuelle', role: 'Identité visuelle', description: 'Une scène dédiée à l’identité, aux supports et aux décisions graphiques du projet, sans extrapoler le périmètre réel.', slot: 'Ajouter une image Les Patronnes' },
+        { number: '03', name: 'Chronoswiss', type: 'Identité visuelle', role: 'Identité visuelle', description: 'Une scène dédiée à l’identité, aux supports et aux décisions graphiques du projet, sans extrapoler le périmètre réel.', slot: 'Ajouter une image Chronoswiss' },
       ],
     },
     contact: {
@@ -222,7 +222,7 @@ export const translations: Record<Language, SiteCopy> = {
       items: [
         { number: '01', name: 'IOKEO', type: 'Website', role: 'Web development', description: 'A space ready for the website presentation, project context and interface decisions.', slot: 'Add an IOKEO image' },
         { number: '02', name: 'Ribbit', type: 'QA testing', role: 'QA testing', description: 'A space to describe the testing approach, covered journeys and the elements you want to document.', slot: 'Add a Ribbit image' },
-        { number: '03', name: 'Les Patronnes', type: 'Visual identity', role: 'Visual identity', description: 'A scene dedicated to the identity, assets and graphic decisions of the project, without expanding beyond its real scope.', slot: 'Add a Les Patronnes image' },
+        { number: '03', name: 'Chronoswiss', type: 'Visual identity', role: 'Visual identity', description: 'A scene dedicated to the identity, assets and graphic decisions of the project, without expanding beyond its real scope.', slot: 'Add a Chronoswiss image' },
       ],
     },
     contact: {

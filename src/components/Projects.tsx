@@ -10,7 +10,7 @@ type Project = ProjectTranslation & {
 const projectAssets = [
   { accent: 'project-card--acid', image: '/projects/img1.jpeg', link: 'https://www.iokeo.com/' },
   { accent: 'project-card--orange', image: '/projects/img3.png', link: 'https://ribbit.dk/' },
-  { accent: 'project-card--paper', image: '/projects/img2.jpeg', link: 'https://les-patronnes-website-8wwa.vercel.app/' },
+  { accent: 'project-card--paper', image: '/projects/img2.jpeg', link: 'https://chronoswiss.com/fr/intl/evolution-family' },
 ]
 
 function ProjectCard({ project, active, openProject }: { project: Project; active: boolean; openProject: string }) {
