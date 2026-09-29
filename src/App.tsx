@@ -59,7 +59,7 @@ function App() {
       </main>
       <footer className="site-footer">
         <p>{copy.footer}</p>
-        <a href="mailto:hello@cafud.dev">hello@cafud.dev <span>↗︎</span></a>
+        <a href="mailto:cafudang@gmail.com">cafudang@gmail.com <span>↗︎</span></a>
       </footer>
     </div>
   )

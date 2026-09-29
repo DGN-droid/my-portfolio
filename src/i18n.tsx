@@ -158,7 +158,7 @@ export const translations: Record<Language, SiteCopy> = {
       frontLabel: 'DANGNIVO STEFAN / PROFIL',
       backLabel: 'DESIGN / CODE / IA',
     },
-    footer: 'Disponible pour les idées exigeantes.',
+    footer: '© 2026 DANGNIVO STEFAN — Portfolio',
   },
   en: {
     header: {
@@ -242,7 +242,7 @@ export const translations: Record<Language, SiteCopy> = {
       frontLabel: 'DANGNIVO STEFAN / PROFILE',
       backLabel: 'DESIGN / CODE / AI',
     },
-    footer: 'Available for demanding ideas.',
+    footer: '© 2026 DANGNIVO STEFAN — Portfolio',
   },
 }
 
