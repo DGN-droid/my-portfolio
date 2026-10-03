@@ -32,6 +32,7 @@ type SiteCopy = {
     kicker: string
     titleLead: string
     titleAccent: string
+    intro: string
     paragraphs: string[]
     domains: string
     principles: string[]
@@ -97,6 +98,7 @@ export const translations: Record<Language, SiteCopy> = {
       kicker: 'Le profil',
       titleLead: 'Design,',
       titleAccent: 'technique & intelligence.',
+      intro: 'Je suis DANGNIVO STEFAN, étudiant en informatique et passionné par la conception de produits numériques. Je travaille à l’intersection du design d’interfaces, du développement web, de l’intelligence artificielle, de la data et de la cybersécurité. J’aime transformer des idées en expériences interactives, modernes et accessibles, tout en construisant des architectures fiables, évolutives et sécurisées. Curieux et polyvalent, j’explore également les animations 2D/3D, le motion design, les API, l’authentification et la protection des données.',
       paragraphs: [
         'Je conçois et développe des expériences numériques où design, technologie, intelligence artificielle et sécurité avancent ensemble. Mon travail ne se limite pas à créer des interfaces web : je construis des produits numériques complets, de leur identité visuelle jusqu’à leur architecture technique.',
         'J’interviens sur la direction artistique, le design d’interfaces et le développement front-end, avec une attention particulière portée à l’expérience utilisateur et au mouvement. Je conçois des interfaces interactives, des expériences immersives ainsi que des animations 2D et 3D, en combinant développement, motion design et technologies web modernes.',
@@ -181,6 +183,7 @@ export const translations: Record<Language, SiteCopy> = {
       kicker: 'The profile',
       titleLead: 'Design,',
       titleAccent: 'technology & intelligence.',
+      intro: 'I am DANGNIVO STEFAN, a computer science student passionate about designing digital products. I work at the intersection of interface design, web development, artificial intelligence, data and cybersecurity. I enjoy turning ideas into interactive, modern and accessible experiences while building reliable, scalable and secure architectures. Curious and versatile, I also explore 2D/3D animation, motion design, APIs, authentication and data protection.',
       paragraphs: [
         'I design and develop digital experiences where design, technology, artificial intelligence and security move forward together. My work goes beyond creating web interfaces: I build complete digital products, from their visual identity to their technical architecture.',
         'I work across art direction, interface design and front-end development, with particular attention to user experience and motion. I create interactive interfaces, immersive experiences and 2D/3D animations by combining development, motion design and modern web technologies.',

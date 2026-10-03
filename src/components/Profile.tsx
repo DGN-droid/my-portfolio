@@ -9,7 +9,7 @@ function Profile() {
       <h2 className="section-title profile__title" data-reveal>{copy.profile.titleLead} <em>{copy.profile.titleAccent}</em></h2>
       <div className="profile__layout">
         <div className="profile__copy" data-reveal>
-          {copy.profile.paragraphs.map((paragraph, index) => <p className={index === 0 ? 'profile__lead' : undefined} key={paragraph}>{paragraph}</p>)}
+          <p className="profile__lead">{copy.profile.intro}</p>
           <p className="profile__domains">{copy.profile.domains}</p>
           <div className="principles">
             {copy.profile.principles.map((principle, index) => <span key={principle}><small>0{index + 1}</small>{principle}</span>)}

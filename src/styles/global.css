@@ -57,6 +57,7 @@ button { font: inherit; }
 .profile__copy { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 8vw; row-gap: 1.2rem; max-width: none; padding-top: .5rem; }
 .profile__copy p { margin: 0; color: #66655e; font-size: 1rem; line-height: 1.75; }
 .profile__copy .profile__lead { color: #66655e; font-size: 1.2rem; line-height: 1.5; }
+.profile__copy .profile__lead { grid-column: 1 / -1; max-width: 980px; }
 .profile__copy .profile__domains, .profile__copy .principles { grid-column: 1 / -1; }
 .principles { display: grid; gap: .8rem; margin-top: 3.4rem; border-top: 1px solid rgba(17,17,15,.2); }
 .principles span { display: flex; gap: 1rem; align-items: center; padding: .9rem 0; border-bottom: 1px solid rgba(17,17,15,.2); font-weight: 600; }
