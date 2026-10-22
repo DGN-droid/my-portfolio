@@ -15,11 +15,11 @@ Personal developer portfolio application designed to showcase projects, skills, 
 
 ### Tech Stack
 
-- **Framework / Library**: React
-- **Language**: TypeScript
-- **Build Tool**: Vite (`vite.config.ts`)
-- **Icons**: React Icons
-- **Deployment**: Vercel
+- **Framework / Library**: ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+- **Language**: ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+- **Build Tool**: ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+- **Icons**: ![React Icons](https://img.shields.io/badge/React_Icons-E91E63?style=flat-square&logo=react&logoColor=white)
+- **Deployment**: ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
@@ -31,7 +31,8 @@ Personal developer portfolio application designed to showcase projects, skills, 
 
 ### Installation & Setup
 
- **Clone the repository:**
-   ```bash
-   git clone [https://github.com/DGN-droid/my-portfolio.git](https://github.com/DGN-droid/my-portfolio.git)
+**Clone the repository:**
+```bash
+git clone [https://github.com/DGN-droid/my-portfolio.git](https://github.com/DGN-droid/my-portfolio.git)
+cd my-portfoliofolio.git](https://github.com/DGN-droid/my-portfolio.git)
    cd my-portfolio
